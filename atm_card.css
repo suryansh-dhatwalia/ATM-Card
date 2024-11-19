@@ -64,9 +64,11 @@ h1{
     transform-style:preserve-3d;
     transition:0.6s;
     z-index:4;
+    cursor:pointer;
 }
 .container:hover{
     transform:rotateY(180deg);
+
 }
 .card_page{
     
@@ -165,7 +167,7 @@ h4{
         #efefef 0px,
         #efefef 9px
 
-    );
+    ); 
 }
 i{
     margin-right:-30px;
